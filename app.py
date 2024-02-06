@@ -73,11 +73,7 @@ def generate_prompt(value):
             ]
         )
 
-        #print(response.choices[0].message.content)
-
         prompt = response.choices[0].message.content
-
-        #image_url = generate_image_from_prompt(prompt)
 
         return prompt
 
